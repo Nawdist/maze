@@ -1,0 +1,19 @@
+The depth-first search algorithm of maze generation is frequently implemented using backtracking. This can be described with a following recursive routine:
+
+            1.  Given a current cell as a parameter,
+
+            2.  Mark the current cell as visited
+
+            3.  While the current cell has any unvisited neighbour cells:
+
+                  4. Choose one of the unvisited neighbours
+
+                  5. Remove the wall between the current cell and the chosen cell
+
+                  6. Invoke the routine recursively for the chosen cell
+
+            7.  When the current cell has no unvisited neighbours, backtrack until it 
+
+                finds a cell with unvisited neighbours, then repeat 4-6 until the entire
+
+                grid has been visited

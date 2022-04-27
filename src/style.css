@@ -1,0 +1,5 @@
+body {
+  overflow-y: hidden;
+  /* overflow-x: hidden; Hide horizontal scrollbar */
+  margin-top: 2rem;
+}
